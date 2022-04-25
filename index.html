@@ -1,0 +1,22 @@
+<html>
+<head>
+<link rel="stylesheet"
+href="estilos.css">
+<!--esto es pa que la pagina funcione en celu-->
+ <meta name="viewport" content="initial-scale=1.0,
+width=device-width">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <form action="enviar.php" method="post" netlify>
+    <h2>CONTACT</h2>
+        <input type="text" name="nombre" placeholder="Name" required>
+        <input type="text" name="correo" placeholder="mail" required>
+        <input type="text" name="Telefono" placeholder="Cellphone">
+        <textarea name="Mensaje" placeholder="Write your message" required></textarea>
+        <input type="submit" value="SEND" id="boton">
+    </form>
+    
+<script src="javascript.js"></script>
+</body>
+</html>
